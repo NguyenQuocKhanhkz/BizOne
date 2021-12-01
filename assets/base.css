@@ -1,0 +1,180 @@
+/*active-home*/
+.list-item .active {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+    border-bottom: 3px solid #82b440;
+}
+.projects-menu .actives{
+    background: #82b440;
+    border: none;
+}
+
+.btn {
+    top: 40px;
+    padding: 18px 40px;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase !important;
+    letter-spacing: 2px;
+    color: #fff;
+    cursor: hand;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 0px;
+    position: relative;
+    overflow: hidden !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background: transparent !important;
+    z-index: 999;
+}
+
+
+.btn:hover {
+    border: 1px solid transparent;
+    color: #80ffd3 !important;
+}
+
+.btn::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #82b440;
+    position: absolute;
+    left: 0%;
+    opacity: 1;
+    top: 0;
+    z-index: -12;
+    -webkit-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.btn::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #07aaa5;
+    position: absolute;
+    left: 0%;
+    opacity: 1;
+    top: 0;
+    z-index: -15;
+    -webkit-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.btn:hover::before,
+.btn:hover::before {
+    opacity: 1;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.btn:hover::after,
+.btn:hover::after {
+    opacity: 1;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.btn2::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #07aaa5;
+    position: absolute;
+    left: 0%;
+    opacity: 1;
+    top: 0;
+    z-index: -12;
+    -webkit-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.btn2::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #82b440;
+    position: absolute;
+    left: 0%;
+    opacity: 1;
+    top: 0;
+    z-index: -15;
+    -webkit-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.btn2:hover::before,
+.btn2:hover::before {
+    opacity: 1;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.btn2:hover::after,
+.btn2:hover::after {
+    opacity: 1;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+/* design icon about and hover it */
+.fa-cog,
+.fa-clock-o,
+.fa-globe,
+.fa-smile-o{
+    color: #82b440;
+    animation: rorate 10s infinite;
+    font-size: 40px;
+    z-index: 99;
+}
+.fa-umbrella,
+.fa-lightbulb-o,
+.fa-sticky-note{
+    color:#07aaa5;
+    font-size: 40px;
+    z-index: 99;
+}
+@keyframes rorate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.list-item{
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.about .list-item:hover{
+    transform:scale(1.2);
+}

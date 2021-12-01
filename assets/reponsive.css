@@ -1,0 +1,137 @@
+/* <=740px - mobies */
+@media only screen and (max-width:47.25em){
+    .nav_bar{
+        display: block !important;
+    }
+    .list ul li{
+        display: none;
+    }
+    .hove-icon{
+        display: inline-block !important;
+        width: 22px;
+        height: 22px;
+        padding: 10px;
+    }
+    .logo{
+        text-align: center;
+        padding-right: 180px;
+    }
+    .about_list-items {
+        width: 100%;
+        margin: 10px;
+    }
+    .d-none{
+        display: block !important;
+    }
+    .list{
+        width: 100%;
+        text-align: right;
+    }
+    .content-design ul {
+        font-size: 13px;
+    }
+    .content-design ul li{
+        padding-left: 0px;
+    }
+    .icon-laptop {
+        padding: 0;
+    }
+    .container-fluid .img-fluid{
+        width: 100%;
+        text-align: center;
+    }
+    .container-fluid .content-fluid{
+        width: 100%;
+        padding: 20px;
+    }
+    .content-design{
+        width: 100%;
+    }
+    .counters-item {
+        width: 95%;
+        margin: 10px;
+    }
+    .services-card{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .services-card .card-item{
+        width: 40%;
+        padding: 0;
+        margin: 25px;
+    }
+    .services {
+        padding: 20px 0;
+    }
+    .teams-info .infor-item {
+        width: 78%;
+    }
+    .contact{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .contact_left{
+        width: 100%;
+    }
+    .contact_right{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .main_input textarea{
+        width: 80%;
+    }
+}
+/* 740px-1024px - tablets*/
+@media only screen and (min-width:47.25em) and (max-width:65.14em){
+    .logo{
+        padding-right: 50px;
+        margin-left: -29px;
+    }
+    .list ul li{
+        margin: 2px;
+        text-align: right;
+    }
+    .d-none{
+        display: block !important;
+    }
+    .d-none h1{
+        font-size: 35px;
+    }
+    .about_list-items {
+        width: 30%;
+        margin: 30px;
+    }
+    .hove-icon{
+        width: 9px;
+        height: 20px;
+    }
+    .about {
+        padding: 80px 30px;
+    }
+    .content-design ul {
+        font-size: 10px;
+    }
+    .content-design ul li{
+        padding-left: 0px;
+    }
+    .icon-laptop {
+     padding: 0;
+    }
+    .counters-item {
+        width: 47%;
+        margin: 10px;
+    }
+    .services-card{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .services-card .card-item{
+        width: 35%;
+        padding: 0;
+        margin: 25px;
+    }
+    .services {
+        padding: 20px 0;
+    }
+   
+}
